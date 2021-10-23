@@ -1,34 +1,30 @@
 # uniswap-skim-v2
 
-V2 of the confusingly popular [Uniswap skim repo](https://github.com/nicholashc/uniswap-skim) is here!
+### Version 2 of the confusingly popular [Uniswap Skim Repo](https://github.com/nicholashc/uniswap-skim) is here!
 
-(well, not quite, but almost here)
+*(well, not quite, but almost here)*
 
- Featuring brand new tools like:
+ **Featuring brand new tools like:**
 
-   - Sync, Imbalanced, and Cross-Chain Asset modes
-   - Powerful LP token analysis
-   - Sortable table display
+   - sync, imbalanced, and cross-chain asset modes
+   - powerful LP token analysis
+   - sortable table display
 
- With out-of-the-box support for:
+ **With out-of-the-box support for:**
 
-   - 7 evm chains
-   - 160+ protocols (they are mostly clones, but still)
-   - 700,000+ token pairs
+   * 7 EVM chains
+   * 160+ protocols (they are mostly clones, but still!)
+   * 700,000+ token pairs
 
-Returning with your favorites from version 1:
+**Returning with your favorites from Version 1:**
 
-   - uncommented code
-   - emojis in the terminal
-   - moral dilemas
+   * uncommented code
+   * emojis in the terminal
+   * moral dilemas
 
-And best of all: Everything is still 100% antique UniswapV2!
+**And best of all: Everything is still 100% antique UniswapV2!**
 
 Times may have changed, but real UniswapV2 connoisseurs still enjoy their AMMs capital inefficient, copied with immunity, and leaking MEV all over the place! Most of the code is available now for curious scholars, including extensive datasets of factories and pair lists. If you are lucky, you may spot a near-extinct `skim()` in the wild.
-
-
------
-
 
 In the coming days you can expect:
 
