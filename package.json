@@ -16,9 +16,9 @@
     "update-prices": "node scripts/queries/update-prices.js $network $delay",
     "scan-factory": "node scripts/queries/scan-factory.js $factory",
     "search-self-lp": "node scripts/features/search-tokens.js $factory $offset",
-    "scan-pair": "node scripts/features/scan-pairs.js $factory $offset $minPoolValue",
-    "render-table": "node scripts/features/render-table.js $factory $mode $offset $precision $minPoolValue",
-    "help": "node scripts/utils/help.js";
+    "scan-pair": "node scripts/features/scan-pairs.js $factory $mode $offset $precision $minVal",
+    "render-table": "node scripts/features/render-table.js $factory $offset $minVal",
+    "help": "node scripts/utils/help.js"
   },
   "dependencies": {
     "axios": "^0.23.0",
@@ -32,6 +32,7 @@
     "eslint": "7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "prettier": "^2.4.1",
-    "prettier-eslint-cli": "^5.0.1"
+    "prettier-eslint-cli": "^5.0.1",
+    "runjs": "^4.4.2"
   }
 }
