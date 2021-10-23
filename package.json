@@ -1,0 +1,31 @@
+{
+  "name": "uniswap-skim-v2",
+  "description": "track uniswap-v2 clones accross evm chains. gather insights. surface alpha",
+  "version": "2.0.0",
+  "author": "github.com/nicholashc",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "github.com/nicholashc/uniswap-skim-v2.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "totals": "node scripts/utils/count-all.js"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "coingecko-api": "^1.0.10",
+    "dotenv": "^10.0.0",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/eslint-parser": "^7.15.8",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.4.1",
+    "prettier-eslint-cli": "^5.0.1"
+  }
+}
