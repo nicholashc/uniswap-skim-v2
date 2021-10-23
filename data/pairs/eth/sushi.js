@@ -25264,23 +25264,23 @@ module.exports = [
     id: '0x64AaE17164aa665c50FBFE6176b50F33afae1c3D',
     token0: {
       id: '0x0AfFa06e7Fbe5bC9a764C979aA66E8256A631f02',
-      name: 'Polybius Token',
+      name: 'Polybius Token'
     },
     token1: {
       id: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-      name: 'Wrapped Ether',
-    },
+      name: 'Wrapped Ether'
+    }
   },
   {
     index: 2106,
     id: '0xaFA5767374BA12C59a79182e8E4E27d27f1d9aA6',
     token0: {
       id: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-      name: 'Wrapped Ether',
+      name: 'Wrapped Ether'
     },
     token1: {
       id: '0xea7Cc765eBC94C4805e3BFf28D7E4aE48D06468A',
-      name: 'NearPad Token',
-    },
+      name: 'NearPad Token'
+    }
   },
 ];

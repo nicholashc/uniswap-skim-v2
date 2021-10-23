@@ -317,7 +317,7 @@ module.exports = [
   {
     name: 'uni',
     network: 'eth',
-    count: NaN,
+    count: 53805,
     abi: 'standard',
     address: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
   },

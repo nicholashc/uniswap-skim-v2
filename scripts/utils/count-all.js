@@ -8,7 +8,6 @@ const template = { chain: spacer, amms: spacer, pairs: spacer };
 
 const getLongName = (str) => {
   let short = str.toLowerCase();
-  let long;
 
   if (short === 'eth') {
     return 'ETHEREUM';
@@ -47,7 +46,7 @@ const sort = (arr) => {
   return sorted;
 };
 
-const render = (total) => {
+const render = () => {
   for (let i = 0; i < networks.length; i++) {
     totals.push({
       chain: getLongName(networks[i].chain),

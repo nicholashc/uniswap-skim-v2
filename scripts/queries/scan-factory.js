@@ -242,7 +242,7 @@ const handleInput = async () => {
         initial = factoryPair.count;
         pairPath = path.resolve(
           '../uniswap-skim-v2/data/pairs/',
-          factoryPair.network,
+          `{factoryPair.network}`,
           `${factoryPair.name}.js`
         );
 
