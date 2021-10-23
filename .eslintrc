@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "env": {
+    "commonjs": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-empty": "off"
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "requireConfigFile": false,
+    "ecmaFeatures": {
+      "globalReturn": "allow"
+    }
+  }
+}
