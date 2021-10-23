@@ -11,8 +11,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "totals": "node scripts/utils/count-all.js"
+    "totals": "node scripts/utils/count-all.js",
+    "new-pools": "node scripts/utils/count-new.js all",
+    "update-prices": "node scripts/queries/update-prices.js eth"
   },
   "dependencies": {
     "axios": "^0.23.0",
