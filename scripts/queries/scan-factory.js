@@ -32,7 +32,6 @@ const rpcTimeout = {
 };
 
 const setRPCandFactory = async (net, add) => {
-  console.log(net, add);
   try {
     let rpc;
 

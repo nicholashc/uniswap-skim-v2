@@ -15,7 +15,10 @@
     "new-pools": "node scripts/utils/count-new.js $network",
     "update-prices": "node scripts/queries/update-prices.js $network $delay",
     "scan-factory": "node scripts/queries/scan-factory.js $factory",
-    "search-self-lp": "node scripts/features/search-tokens.js $factory $tail"
+    "search-self-lp": "node scripts/features/search-tokens.js $factory $offset",
+    "scan-pair": "node scripts/features/scan-pairs.js $factory $offset $minPoolValue",
+    "render-table": "node scripts/features/render-table.js $factory $mode $offset $precision $minPoolValue",
+    "help": "node scripts/utils/help.js";
   },
   "dependencies": {
     "axios": "^0.23.0",
