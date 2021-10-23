@@ -29,7 +29,7 @@ Times may have changed, but real UniswapV2 connoisseurs still enjoy their AMMs c
 In the coming days you can expect:
 
    - [ ] finalize migration from my local environment to a public repo (private keys not included)
-   - [ ] an extensive cli help page (it will put the man in manifesto)
+   - [x] an extensive cli help page (it will put the man in manifesto)
    - [ ] detailed installation and usage instructions in this README, maybe even with some syntax highlighting
    - [ ] refactoring some entirely unnecessary code duplication
    - [ ] figuring out how to upload the enormous pancakeswap pair file (it's over 100 MB)
