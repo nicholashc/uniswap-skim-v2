@@ -34,3 +34,4 @@ In the coming days you can expect:
    - [ ] refactoring some entirely unnecessary code duplication
    - [ ] figuring out how to upload the enormous pancakeswap pair file (it's over 100 MB)
    - [ ] some comments in the code
+   - [ ] add ipc path support for local nodes
